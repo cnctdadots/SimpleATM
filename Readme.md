@@ -13,15 +13,16 @@ This is a terminal-based Simple ATM simulation built in modern C++17. It allows 
 - Modular design with C++ header/source file separation
 
 ---
-## File Structure
+## Project File Structure
+
 SimpleATM/
-├── main.cpp           # Entry point of the app
-├── Account.h          # Account class definition
-├── User.h             # User class definition
-├── ATMSystem.h        # Utility and file I/O declarations
-├── ATMSystem.cpp      # Implementation of ATM helpers
-├── accounts.txt       # Saved user/account data
-├── README.md          # This file
+├── main.cpp            # Main application logic and ATM menu
+├── Account.h           # Account class (represents each bank account)
+├── User.h              # User class (stores PIN and list of accounts)
+├── ATMSystem.h         # Helper functions (file I/O, input handling)
+├── ATMSystem.cpp       # Implementation of ATMSystem utilities
+├── accounts.txt        # User data file: card number, PIN, accounts
+├── README.md           # Project overview and usage guide (this file)
 
 ---
 
