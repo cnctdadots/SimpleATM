@@ -15,14 +15,14 @@ This is a terminal-based Simple ATM simulation built in modern C++17. It allows 
 ---
 ## Project File Structure
 
-SimpleATM/
-├── main.cpp            # Main application logic and ATM menu
-├── Account.h           # Account class (represents each bank account)
-├── User.h              # User class (stores PIN and list of accounts)
-├── ATMSystem.h         # Helper functions (file I/O, input handling)
-├── ATMSystem.cpp       # Implementation of ATMSystem utilities
-├── accounts.txt        # User data file: card number, PIN, accounts
-├── README.md           # Project overview and usage guide (this file)
+SimpleATM  
+&emsp;&emsp;- main.cpp – Main application logic and ATM menu  
+&emsp;&emsp;- Account.h – Account class (represents each bank account)  
+&emsp;&emsp;- User.h – User class (stores PIN and list of accounts)  
+&emsp;&emsp;- ATMSystem.h – Helper function declarations (file I/O, input handling)  
+&emsp;&emsp;- ATMSystem.cpp – Implementation of ATMSystem utilities  
+&emsp;&emsp;- accounts.txt – User data file: card number, PIN, and account balances  
+&emsp;&emsp;- README.md – Project overview and usage guide
 
 ---
 
@@ -40,8 +40,9 @@ SimpleATM/
 ```bash
 g++ -std=c++17 main.cpp ATMSystem.cpp -o atm
 ./atm
+---
 
-SAMPLE EXAMPLE (check txt file)
+SAMPLE EXAMPLE to get user data (check txt file)
 card123 1234
 Savings 1000
 Checking 500
