@@ -40,9 +40,12 @@ SimpleATM
 ```bash
 g++ -std=c++17 main.cpp ATMSystem.cpp -o atm
 ./atm
+```
+
 ---
 
-SAMPLE EXAMPLE to get user data (check txt file)
+### SAMPLE EXAMPLE to get user data (check txt file)
+```bash
 card123 1234
 Savings 1000
 Checking 500
@@ -51,3 +54,12 @@ card456 5678
 Savings 2000
 Checking 800
 ###
+```
+---
+
+### How to run the test code (in main.cpp)
+#### Usage flow
+- `Insert card` - Type one of the cards from the file (accounts.txt)
+- `Enter pin` - Enter the related pin (you can test for multiple times, expected to terminate after max trials)
+- `Select account` - Select 'Savings' or 'Checkings'
+- `Choose an option` - Choose either check balance, or withdrawal or deposit or exit. 
